@@ -6,26 +6,22 @@ A simple tool for NANINOVEL localization.
 - [PySocks](https://pypi.org/project/PySocks/)
 
 # Usage
-naniconvert.exe [-h] [--start START] [--end END] [--overwrite] [--nobackup] [--translate] [--socks5 SOCKS5]
-                       [--at_mark] [--keep_indentation]
-                       filename
+
+- naniconvert.exe [-h] [--start START] [--end END] [--overwrite] [--nobackup] [--translate] [--socks5 SOCKS] [--at_mark] [--keep_indentation] filename
 
 positional arguments:
-  filename            The file to be converted.
+- filename            The file to be converted.
 
 options:
-  -h, --help          show this help message and exit
-  --start START       Specifies the starting line number for processing. Use 1 to begin from the first line.
-  --end END           Sets the line number at which to stop processing, without including this line itself. Use 1 to
-                      indicate the first line.
-  --overwrite         Enables modification of the original input file. If not set, the output will be saved to a new
-                      file with a '_converted' suffix.
-  --nobackup          Prevents the creation of a backup file. This option is only applicable when --overwrite is
-                      enabled.
-  --translate         Appends a Google Translate translation below each original line.
-  --socks5 SOCKS5     Configures a SOCKS5 proxy for Google Translate, requiring the proxy's port number.
-  --at_mark           Processes only the lines that begin with the '@' symbol.
-  --keep_indentation  Retains the original line's indentation in the output.
+- -h, --help          show this help message and exit
+- --start START       Specifies the starting line number for processing. Use 1 to begin from the first line.
+- --end END           Sets the line number at which to stop processing, without including this line itself. Use 1 to indicate the first line.
+- --overwrite         Enables modification of the original input file. If not set, the output will be saved to a new file with a '_converted' suffix.
+- --nobackup          Prevents the creation of a backup file. This option is only applicable when --overwrite is enabled.
+- --translate         Appends a Google Translate translation below each original line.
+- --socks5 SOCKS5     Configures a SOCKS5 proxy for Google Translate, requiring the proxy's port number.
+- --at_mark           Processes only the lines that begin with the '@' symbol.
+- --keep_indentation  Retains the original line's indentation in the output.
 
   # 用法
 - [--start 开始的行数] 从哪一行开始，该行会被在执行时处理，首行为1，可以直接看VS Code的行号
