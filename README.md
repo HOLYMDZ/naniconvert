@@ -1,5 +1,5 @@
 # naniconvert
-A simple tool for NANINOVEL localization.
+A simple tool for NANINOVEL localization. Use PyInstaller first so you don't need to type *python* every time.
 
 # Requirements
 - [googletrans](https://pypi.org/project/googletrans/)==4.0.0rc1
